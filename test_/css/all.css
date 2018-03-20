@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=cyrillic,cyrillic-ext');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Roboto";
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
+.section1{
+	height: 100vh;
+	width: 100%;
+	background: url("../img/background-img.jpg");
+	-moz-background-size: cover;  
+	-o-background-size: cover;  
+	-ms-background-size: cover; 
+	background-size: cover;
+	background-position: center; 
+}
+.section1 h1{
+	width: 60%;
+	padding: 6.9vw 0 0 7.8vw;
+	font-size: 3.55vw;
+	font-weight: bold;
+	color: #ffffff;
+}
+.section1 h1 span{
+	color: #f0e353;
+}
+.section1 h2{
+	font-size: 1.7vw;
+	color: #ffffff;
+	font-weight: 100;
+	padding-left: 7.8vw;/*----*/
+}
+.datetime{
+	border-left: 8px solid #f0e353;
+	padding-left: 0.78vw;
+	color: #ffffff;
+	font-size: 2.6vw;
+	margin-top: 4.5vw;
+	margin-left: 7.8vw;
+	font-weight: 300;
+}
+.num{
+	font-size: 3.12vw;
+	font-weight: 500;
+}
+.timezone{
+	font-size: 1.57vw;
+	font-weight: 300;
+}
+.btn{
+	width: 41vw;
+	margin: 5.8vw auto 1.8vw auto ;
+	text-align: center;
+	border: 2px solid #f0e353;
+	text-decoration: none;
+	color: #f0e353;
+	display: block;
+	line-height: 4.69vw;
+	font-size: 2.6vw;
+}
+.btn:hover{
+	background: #f0e353;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+}
+.section1 .btn-info{
+	font-size: 1.15vw;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	font-weight: 300;
+}
+.arrow{
+	width: 4.7%;
+	top: 50px;
+	left: 50%;
+	cursor: pointer;
+}
+
+.transition-translate {
+	display: block;
+	position: relative;
+	top: 0;
+	z-index: 2;
+	margin: 0 auto;
+	text-align: center;
+	cursor: pointer;
+	transition: 2s linear;
+}
+.transition-translate:hover {
+  top: 50px;
+}
+
+.section2{
+	min-height: 375px;
+	background: #55719f;
+	
+}
+.section2-content-wrapp{
+	overflow: hidden;
+	padding: 6vw 0 0 8.7vw;
+}
+.logo {
+    float: left;
+    background: url("../img/logo.png") no-repeat;
+    -moz-background-size: cover;  
+	-o-background-size: cover;  
+	-ms-background-size: cover; 
+	background-size: cover;
+	background-position: center; 
+    width: 16.4vw;
+    height: 4.2vw;
+    text-indent: -99999px;
+    margin-top: 2vw;
+}
+.section2-content-wrapp p{
+	float: left;
+	font-size: 1.8vw;
+	color: #ffffff;
+	margin-top: 2vw;
+	margin-left: 2.55vw;
+}
+.presenter{
+	float: left;
+	width: 35vw;
+	margin-left: 16.8vw;
+}
+.presenter img{
+	float: left;
+	width: 7.2vw;
+	padding-right: 2vw;
+}
+.presenter h3{
+	float: left;
+	font-size: 1.8vw;
+	border-bottom: 3px solid white;
+	color: #ffffff;
+	font-weight: 400;
+	padding-right: 4.7vw;
+
+}
+.presenter span{
+	float: left;
+	font-size: 1.15vw;
+	color: #ffffff;
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1749px) {
+
+}
+
+
+
