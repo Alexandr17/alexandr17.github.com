@@ -248,7 +248,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 }
 
 .section4{
-	height: 100vh;
+	min-height: 100vh;
 
 	background: rgba(135,57,137,1);
 background: -moz-linear-gradient(-45deg, rgba(135,57,137,1) 0%, rgba(135,57,137,1) 2%, rgba(169,125,171,1) 41%, rgba(97,45,98,1) 100%);
@@ -261,8 +261,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#873989', end
 }
 
 .section5{
-	padding: 50px 5%;
-	height: 100vh;
+	
+	min-height: 100vh;
 
 background: rgba(99,83,189,1);
 background: -moz-linear-gradient(-45deg, rgba(99,83,189,1) 0%, rgba(99,83,189,1) 6%, rgba(109,0,25,1) 93%, rgba(109,0,25,1) 100%);
@@ -276,14 +276,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6353bd', end
 
 .section6{
 	height: 100vh;
-	padding: 20px 10%;
+	
 
 	 background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(http://win8art.com/uploads/posts/2012-11/1353338669_1920x1200.jpg); 
   background-size: cover;
 
 }
 @media only screen and (max-width: 600px) {
-	h3{
+	h3{	
 		font-size: 2em;
 	}
 }
