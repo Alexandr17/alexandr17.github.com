@@ -34,6 +34,9 @@ header h1{
     color: orange;
     font-weight: bold;
     text-align: center;
+	
+	display: flex;
+	
 }
 
 .number{
@@ -48,7 +51,10 @@ header h1{
 	line-height: 150px;
 	display: inline-block;
 	position: relative;
+	
 }
+.box: first-of-type {
+dispaly:none;}
 .caption {
    font-size: 12px;
    position: absolute;
@@ -78,11 +84,3 @@ header h1{
 	
 }
 
-@media screen and (orientation:landscape){
-
-.box{
-		display: flex;
-	flex-wrap: wrap;
-	width:25%;
-	}
-}
