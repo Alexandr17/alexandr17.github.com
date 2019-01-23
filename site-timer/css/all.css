@@ -82,6 +82,8 @@ header h1{
 
 .box{
 		margin: 10px auto;
-		display: block;
+		display: flex;
+	flex-wrap: wrap;
+	width:25%;
 	}
 }
