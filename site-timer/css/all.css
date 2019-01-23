@@ -36,7 +36,8 @@ header h1{
     text-align: center;
 	
 	display: flex;
-	
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .number{
@@ -52,7 +53,7 @@ header h1{
 	position: relative;
 	
 }
-.box: first-of-type {
+.box:first-of-type {
 dispaly:none;}
 .caption {
    font-size: 12px;
