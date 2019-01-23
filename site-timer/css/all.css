@@ -66,21 +66,4 @@ dispaly:none;}
 }
 
 
-@media screen and (max-width: 1000px){
-	.img{
-		width: 100%;
-	}
-	.wrapper{
-		width: 100%;
-		
-	}
-	header h1{
-		font-size:  16px;
-	}
-	#CDT {
-    font-size: 40px;
-    margin: 50px 0 80px;
-	}
-	
-}
 
