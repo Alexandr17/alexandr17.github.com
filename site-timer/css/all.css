@@ -51,9 +51,10 @@ header h1{
 	background: white;
 	line-height: 150px;
 	position: relative;
+	margin: 20px;
 	
 }
-.box:first-of-type {
+.box:first-child {
 dispaly:none;}
 .caption {
    font-size: 12px;
