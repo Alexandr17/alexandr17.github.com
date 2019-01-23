@@ -81,7 +81,6 @@ header h1{
 @media screen and (orientation:landscape){
 
 .box{
-		margin: 10px auto;
 		display: flex;
 	flex-wrap: wrap;
 	width:25%;
