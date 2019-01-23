@@ -45,11 +45,10 @@ header h1{
 
 .box{
 	margin: 20px 30px;
-	width: 170px;
+	width: 20%;
 	border: #dbdbdb solid 1px;
 	background: white;
 	line-height: 150px;
-	display: inline-block;
 	position: relative;
 	
 }
