@@ -48,10 +48,10 @@ header h1{
 }
 
 .box{
-	width: 20%;
+	width: 200px;
 	border: #dbdbdb solid 2px;
 	background: #fff;
-	line-height: 150px;
+	line-height: 200px;
 	position: relative;
 	margin: 20px;
 	box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
