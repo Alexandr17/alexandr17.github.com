@@ -52,7 +52,7 @@ header h1{
 .box{
 	width: 20%;
 	border: #dbdbdb solid 2px;
-	background: #353535;
+	background: #fff;
 	line-height: 150px;
 	position: relative;
 	margin: 20px;
@@ -68,7 +68,7 @@ dispaly:none;}
    left: 0;
    text-align: center;
    width: 100%;
-   color: white;
+   color: black;
 }
 
 
