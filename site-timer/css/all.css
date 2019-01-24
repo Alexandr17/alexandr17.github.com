@@ -24,11 +24,11 @@ header{
 }
 header h1{
 	font-family: "Myriad Pro";
-	font-weight: normal;
-	font-size: 40px ;
+	font-weight: bold;
+	font-size: 45px ;
 	text-align: center;
 	margin: 50px 0 39px 0;
-	color: #fff;
+	color: #000;
 	letter-spacing: 2px;
 }
 
@@ -55,7 +55,7 @@ header h1{
 	line-height: 150px;
 	position: relative;
 	margin: 20px;
-	box-shadow: 3px 2px 15px -4px rgba(0,0,0,0.75);
+	box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
 	
 }
 .box:first-child {
