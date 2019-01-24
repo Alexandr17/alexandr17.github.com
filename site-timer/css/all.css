@@ -4,7 +4,7 @@
 	
 }
 body{
-	background: #f8f8f8;
+	background: #565656ab;
 
 }
 
@@ -52,7 +52,7 @@ header h1{
 .box{
 	width: 20%;
 	border: #dbdbdb solid 2px;
-	background: white;
+	background: #353535ba;
 	line-height: 150px;
 	position: relative;
 	margin: 20px;
@@ -68,7 +68,7 @@ dispaly:none;}
    left: 0;
    text-align: center;
    width: 100%;
-   color: #777;
+   color: white;
 }
 
 
