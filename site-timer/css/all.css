@@ -14,13 +14,7 @@ body{
 header{
 	margin-top: 50px;
 }
-.logo img{
-	width: 252px;
-	margin: 0 auto;
-	
-	display: block;
-	
-}
+
 header h1{
 	font-family: "Myriad Pro";
 	font-weight: bold;
