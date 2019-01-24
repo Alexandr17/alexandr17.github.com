@@ -53,6 +53,7 @@ header h1{
 	line-height: 150px;
 	position: relative;
 	margin: 20px;
+	box-shadow: 3px 2px 23px -4px rgba(0,0,0,0.75);
 	
 }
 .box:first-child {
