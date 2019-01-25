@@ -1,6 +1,6 @@
 
 
-;(function($){
+jQuery(document).ready(function(){
 	// Number of seconds in every time division
 	var days	= 24*60*60,
 		hours	= 60*60,
