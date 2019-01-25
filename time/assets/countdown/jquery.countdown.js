@@ -6,7 +6,7 @@
  * @license		MIT License
  */
 
-;(function($) {
+jQuery(document).ready(function($){
 	
 	
 	// Number of seconds in every time division
@@ -136,4 +136,4 @@
 				replacement.addClass('static');
 			});
 	}
-})(jQuery);
+}
