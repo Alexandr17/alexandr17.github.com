@@ -1,5 +1,6 @@
 ;(function($) {
 	
+	
 /*	var note = $('#note'),
 		ts = new Date(2019, 0, 1),
 		newYear = true;
