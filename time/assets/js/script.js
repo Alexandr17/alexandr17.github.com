@@ -1,4 +1,4 @@
-(function($) {
+jQuery(document).ready(function(){
 	
 	
 /*	var note = $('#note'),
