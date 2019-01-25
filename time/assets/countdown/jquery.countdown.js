@@ -1,6 +1,6 @@
 
 
-(function($){
+;(function($){
 	
 	
 	// Number of seconds in every time division
