@@ -136,4 +136,4 @@ jQuery(document).ready(function($){
 				replacement.addClass('static');
 			});
 	}
-}
+})
