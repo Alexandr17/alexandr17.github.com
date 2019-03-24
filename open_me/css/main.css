@@ -670,7 +670,7 @@ input[type="submit"] {
 }
 
 .section.section-1:before {
-	opacity: .45;
+	opacity: .5;
 }
 
 .section > * {
