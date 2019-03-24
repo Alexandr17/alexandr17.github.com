@@ -666,7 +666,7 @@ input[type="submit"] {
 	right: 0;
 	bottom: 0;
 	background: #000;
-	opacity: .25;
+	opacity: .5;
 }
 
 .section.section-1:before {
@@ -727,4 +727,4 @@ input[type="submit"] {
 		font-size: 50px;
 	}
 }
-
+
