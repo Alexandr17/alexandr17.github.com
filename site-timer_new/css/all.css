@@ -11,7 +11,7 @@ html {
 
 .wrapper{
 overflow: hidden;
-	padding: 50px 30px;
+	padding: 50px 5px;
 	
 }
 header{
@@ -57,7 +57,7 @@ header h1{
 	align-items: center;
 	position: relative;
 	flex-direction: column;
-	margin: 10px;
+	margin: 5px;
 	box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
 
 	height: 150px;
