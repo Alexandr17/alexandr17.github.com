@@ -3,10 +3,9 @@
 	padding: 0;
 }
 
-body{
-}
 
-body:before {
+
+html:before {
 	content: '';
 	position: absolute;
 	left: 0;
