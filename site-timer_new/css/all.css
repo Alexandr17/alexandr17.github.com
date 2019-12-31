@@ -55,7 +55,6 @@ header h1{
     text-align: center;
 	
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -64,7 +63,7 @@ header h1{
 }
 
 .box{
-	width: 33.332%;
+	width: 25%;
 	max-width: 200px;
 	border: #dbdbdb solid 2px;
 	background: #fff;
@@ -74,8 +73,7 @@ header h1{
 	box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
 	
 }
-.box:first-of-type {
-dispaly:none;}
+
 .caption {
    font-size: 12px;
    position: absolute;
