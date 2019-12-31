@@ -65,6 +65,8 @@ header h1{
 	flex-direction: column;
 	margin: 10px;
 	box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
+
+	height: 150px;
 	
 }
 
