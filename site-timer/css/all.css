@@ -8,7 +8,7 @@ body{
 	position: relative;
 }
 
-body:before {
+body:befor {
 	content: '';
 	position: absolute;
 	left: 0;
