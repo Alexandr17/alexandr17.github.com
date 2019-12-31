@@ -16,7 +16,7 @@ CountdownTimer.prototype={
   var me=this;
 
   if( ( this.tl - today ) > 0 ){
-   timer += '<div class="box"><span class="number day"><div class="caption">DAYS</div>'+day+'</span></div>';
+   timer += '<div class="box hhours"><span class="number day"><div class="caption">DAYS</div>'+day+'</span></div>';
    timer += '<div class="box"><span class="number hour"><div class="caption">HOURS</div>'+hour+'</span></div>';
    timer += '<div class="box"><span class="number min"><div class="caption">MINS</div>'+this.addZero(min)+'</span></div><div class="box"><span class="number sec"><div class="caption">SEC</div>'+this.addZero(sec)+'</span></div>';
    this.elem.innerHTML = timer;

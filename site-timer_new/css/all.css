@@ -48,8 +48,12 @@ header h1{
 	margin: 10px;
 }
 
+.box.hhours {
+	display: none;
+}
+
 .box{
-	width: 25%;
+	width: 33.332%;
 	max-width: 200px;
 	border: #dbdbdb solid 2px;
 	background: #fff;
