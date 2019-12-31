@@ -4,7 +4,7 @@
 }
 
 html {
-	height: 100vh;
+	min-height: 100vh;
 	overflow: hidden;
 }
 
@@ -17,7 +17,7 @@ body > * {
 .wrapper{
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 30px;
+	padding: 50px 30px;
 	
 }
 header{
@@ -36,11 +36,10 @@ header h1{
 
 
 #CDT {
-    font-size: 70px;
+    font-size: 40px;
     color: orange;
     font-weight: bold;
     text-align: center;
-	
 	display: flex;
 	justify-content: center;
 }
@@ -54,9 +53,11 @@ header h1{
 	max-width: 200px;
 	border: #dbdbdb solid 2px;
 	background: #fff;
-	line-height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
-	margin: 20px;
+	margin: 10px;
 	box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
 	
 }
