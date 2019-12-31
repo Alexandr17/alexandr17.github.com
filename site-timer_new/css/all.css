@@ -64,7 +64,8 @@ header h1{
 }
 
 .box{
-	width: 200px;
+	width: 33.332%;
+	max-width: 200px;
 	border: #dbdbdb solid 2px;
 	background: #fff;
 	line-height: 200px;
@@ -73,7 +74,7 @@ header h1{
 	box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
 	
 }
-.box:first-child {
+.box:first-of-type {
 dispaly:none;}
 .caption {
    font-size: 12px;
