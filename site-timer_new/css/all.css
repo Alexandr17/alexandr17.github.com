@@ -68,12 +68,12 @@ header h1{
 .caption {
    font-size: 12px;
    position: absolute;
-   bottom: -50px;
+   bottom: -25px;
    left: 0;
    text-align: center;
    width: 100%;
    color: #fff;
-	text-shadow: 2px 2px 2px #000;
+   text-shadow: 2px 2px 2px #000;
 }
 
 
