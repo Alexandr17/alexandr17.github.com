@@ -15,7 +15,7 @@ overflow: hidden;
 	
 }
 header{
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 header h1{
@@ -23,7 +23,7 @@ header h1{
 	font-weight: bold;
 	font-size: 48px;
 	text-align: center;
-	margin: 50px 0 39px 0;
+	margin: 40px 0 39px 0;
 	color: #fff;
 	letter-spacing: 2px;
 	text-shadow: 2px 2px 2px #000;
@@ -31,12 +31,13 @@ header h1{
 
 
 #CDT {
-    font-size: 40px;
-    color: orange;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
 	display: flex;
 	justify-content: center;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
 }
 
 .number{
