@@ -21,12 +21,12 @@ header{
 header h1{
 	font-family: "Myriad Pro";
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 48px;
 	text-align: center;
 	margin: 50px 0 39px 0;
-	color: orange;
+	color: #fff;
 	letter-spacing: 2px;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 2px 2px 2px #000;
 }
 
 
