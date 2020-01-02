@@ -71,7 +71,8 @@ header h1{
    left: 0;
    text-align: center;
    width: 100%;
-   color: black;
+   color: #fff;
+	text-shadow: 2px 2px 2px #000;
 }
 
 
