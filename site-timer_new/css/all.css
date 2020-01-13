@@ -17,16 +17,16 @@ body {
 
 .wrapper{
 overflow: hidden;
-	padding: 50px 5px;
+	padding: 25px 5px;
 	
 }
 header{
-margin-top: 40px;
+margin-top: 15px;
 }
 
 header h1{
 	font-weight: bold;
-	font-size: 48px;
+	font-size: 40px;
 	text-align: center;
 	margin: 40px 0 39px 0;
 	color: #fff;
@@ -65,9 +65,7 @@ header h1{
 	flex-direction: column;
 	margin: 5px;
 	box-shadow: 3px 2px 20px -4px rgba(0,0,0,0.75);
-
 	height: 150px;
-	
 }
 
 .caption {
