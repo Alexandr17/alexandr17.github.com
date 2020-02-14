@@ -555,6 +555,11 @@ display: inline-block;
     transition: .3s ease-in-out;
 	text-decoration: none;
 	border-radius: 5px;
+	
+	    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }
 
 /*----*/
