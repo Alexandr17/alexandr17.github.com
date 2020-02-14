@@ -527,8 +527,30 @@ header h1{
 
 
 
+.btn-holder {
+position: fixed;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	opacity: 0.7;
+}
 
-
+.btn-holder a {
+display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    margin: 20px 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: -webkit-linear-gradient(left,#ff7396,#f97af0);
+    background: -o-linear-gradient(right,#ff7396,#f97af0);
+    background: -moz-linear-gradient(right,#ff7396,#f97af0);
+    background: linear-gradient(to right,#ff7396,#f97af0);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 
 /*----*/
 
