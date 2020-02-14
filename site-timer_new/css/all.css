@@ -603,9 +603,9 @@ display: inline-block;
 }
 
 @keyframes pulse {
-	10% {transform: scale(1.1)}
+	10% {transform: scale(1.2)}
 }
 
 @keyframes pulsecolor {
-  10% {background: #dd0000;}
+  10% {background: #dd0000}
 }
