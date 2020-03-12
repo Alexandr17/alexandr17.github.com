@@ -686,7 +686,7 @@ display: inline-block;
 	margin: 0 auto;
 	height: 300px;
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 0px;
 	z-index: 100;
 	position: relative;
 }
@@ -782,9 +782,9 @@ display: inline-block;
 	content: "";
 	display: block;
 	height: 15px;
-	left: 10px;
+	left: 7px;
 	position: absolute;
-	top: 10px;
+	top: 7px;
 	width: 15px;
 	z-index: 101;
 }
@@ -873,7 +873,7 @@ display: inline-block;
 	content: "";
 	display: block;
 	height: 5px;
-	left: 15px;
+	left: 16px;
 	position: absolute;
 	top: 13px;
 	width: 5px;
@@ -885,11 +885,11 @@ display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	content: "";
 	display: block;
-	height: 6px;
+	height: 5px;
 	left: 13px;
 	position: absolute;
-	top: 11px;
-	width: 6px;
+	top: 10px;
+	width: 5px;
 	z-index: 101;
 }
 
