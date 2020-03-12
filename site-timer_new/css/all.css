@@ -684,19 +684,11 @@ display: inline-block;
 }
 
 .content {
-	width: 700px;
+	width: 350px;
 	margin: 0 auto;
-	height: 600px;
+	height: 300px;
 	text-align: center;
 	margin-top: 70px;
-	background-color: #D6C6C8;
-	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(#FFFFFF), to(#D6C6C8));
-
-	background: -webkit-radial-gradient(, #FFFFFF, #D6C6C8);
-	background: -moz-radial-gradient(, #FFFFFF, #D6C6C8);
-	background: -o-radial-gradient(, #FFFFFF, #D6C6C8);
-	background: -ms-radial-gradient(, #FFFFFF, #D6C6C8);
-	background: radial-gradient(, #FFFFFF, #D6C6C8);
 	z-index: 100;
 
 	-webkit-box-shadow: #888 0px 0px 8px;
@@ -705,10 +697,10 @@ display: inline-block;
 }
 
 .flower1 {
-	top: 150px;
-	left: 200px;
-	height: 300px;
-	width: 300px;
+	top: 75px;
+	left: 100px;
+	height: 150px;
+	width: 150px;
 	position: absolute;
 	z-index: 100;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
@@ -725,10 +717,10 @@ display: inline-block;
 .wing,.wing::before,.wing::after,.wing1 {
 	position: absolute;
 	display: block;
-	top: 100px;
+	top: 50px;
 	left: 0;
-	width: 300px;
-	height: 100px;
+	width: 150px;
+	height: 50px;
 	background-color: #A83572;
 	border-radius: 100px 100px 100px 100px / 60px 60px 60px 60px;
 }
@@ -774,11 +766,11 @@ display: inline-block;
 }
 
 .flower2 {
-	height: 80px;
-	left: 330px;
+	height: 40px;
+	left: 165px;
 	position: absolute;
-	top: 400px;
-	width: 80px;
+	top: 200px;
+	width: 40px;
 	z-index: 100;
 
 	-webkit-animation: spin 20s linear infinite;
@@ -794,11 +786,11 @@ display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	content: "";
 	display: block;
-	height: 30px;
-	left: 20px;
+	height: 15px;
+	left: 10px;
 	position: absolute;
-	top: 20px;
-	width: 30px;
+	top: 10px;
+	width: 15px;
 	z-index: 101;
 }
 
@@ -807,8 +799,8 @@ display: inline-block;
 	display: block;
 	top: 0;
 	left: 0;
-	width: 80px;
-	height: 80px;
+	width: 40px;
+	height: 40px;
 	border-radius: 500px/200px;
 	background-color: #ED0C6E;
 }
@@ -866,11 +858,11 @@ display: inline-block;
 }
 
 .flower3 {
-	height: 70px;
-	left: 180px;
+	height: 35px;
+	left: 90px;
 	position: absolute;
-	top: 190px;
-	width: 70px;
+	top: 95px;
+	width: 35px;
 	z-index: 100;
 
 	-webkit-animation: spin 15s linear infinite;
@@ -885,11 +877,11 @@ display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	content: "";
 	display: block;
-	height: 10px;
-	left: 30px;
+	height: 5px;
+	left: 15px;
 	position: absolute;
-	top: 26px;
-	width: 10px;
+	top: 13px;
+	width: 5px;
 	z-index: 101;
 }
 
@@ -898,11 +890,11 @@ display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	content: "";
 	display: block;
-	height: 12px;
-	left: 26px;
+	height: 6px;
+	left: 13px;
 	position: absolute;
-	top: 22px;
-	width: 12px;
+	top: 11px;
+	width: 6px;
 	z-index: 101;
 }
 
@@ -910,10 +902,10 @@ display: inline-block;
 	z-index: 99;
 	position: absolute;
 	display: block;
-	top: 25px;
+	top: 13px;
 	left: 0px;
-	width: 70px;
-	height: 10px;
+	width: 35px;
+	height: 5px;
 	border-radius: 500px / 100px;
 	background-color: #F7941E;
 }
@@ -979,11 +971,11 @@ display: inline-block;
 }
 
 .flower4 {
-	height: 100px;
-	left: 145px;
+	height: 50px;
+	left: 73px;
 	position: absolute;
-	top: 290px;
-	width: 100px;
+	top: 145px;
+	width: 50px;
 	z-index: 82;
 
 	-webkit-animation: spin 5s linear infinite;
@@ -997,10 +989,10 @@ display: inline-block;
 	content: '';
 	position: absolute;
 	display: block;
-	top: 40px;
-	left: 40px;
-	width: 20px;
-	height: 20px;
+	top: 20px;
+	left: 20px;
+	width: 10px;
+	height: 10px;
 	border-radius: 20px;
 	background-color: #DFF6FF;
 	z-index: 101;
@@ -1010,10 +1002,10 @@ display: inline-block;
 	z-index: 99;
 	position: absolute;
 	display: block;
-	top: 40px;
+	top: 20px;
 	left: 0px;
-	width: 100px;
-	height: 20px;
+	width: 50px;
+	height: 10px;
 	border-radius: 500px 500px 500px 500px/ 100px 100px 100px 100px;
 	background-color: #25AAE1;
 }
@@ -1079,24 +1071,24 @@ display: inline-block;
 }
 
 .flower5 {
-	height: 100px;
-	left: 300px;
+	height: 50px;
+	left: 150px;
 	position: absolute;
-	top: 250px;
-	width: 100px;
+	top: 125px;
+	width: 50px;
 	z-index: 103;
 }
 
 .flower5:before {
 	background-color: #B0477F;
-	border-radius: 50px;
+	border-radius: 25px;
 	content: "";
 	display: block;
-	height: 50px;
-	left: 25px;
+	height: 25px;
+	left: 12px;
 	position: absolute;
-	top: 25px;
-	width: 50px;
+	top: 13px;
+	width: 25px;
 	z-index: 101;
 }
 
@@ -1104,10 +1096,10 @@ display: inline-block;
 	z-index: 99;
 	position: absolute;
 	display: block;
-	top: 40px;
+	top: 20px;
 	left: 0px;
-	width: 100px;
-	height: 20px;
+	width: 50px;
+	height: 10px;
 	border-radius: 500px 500px 500px 500px/ 100px 100px 100px 100px;
 	background-color: #fff;
 }
@@ -1177,11 +1169,11 @@ display: inline-block;
 .flower6 {
 	border: 3px solid #8DC63F;
 	border-radius: 200px 200px 200px 200px;
-	height: 100px;
-	left: 220px;
+	height: 50px;
+	left: 110px;
 	position: absolute;
-	top: 100px;
-	width: 100px;
+	top: 50px;
+	width: 50px;
 	z-index: 81;
 }
 
@@ -1190,11 +1182,11 @@ display: inline-block;
 	border-radius: 180px 180px 180px 180px;
 	content: "";
 	display: block;
-	height: 180px;
-	left: -43px;
+	height: 90px;
+	left: -21px;
 	position: absolute;
-	top: -43px;
-	width: 180px;
+	top: -21px;
+	width: 90px;
 }
 
 .flower6:after {
@@ -1202,19 +1194,19 @@ display: inline-block;
 	border-radius: 130px 130px 130px 130px;
 	content: "";
 	display: block;
-	height: 70px;
-	left: 14px;
+	height: 35px;
+	left: 7px;
 	position: absolute;
-	top: 15px;
-	width: 70px;
+	top: 7px;
+	width: 35px;
 }
 
 .flower7 {
-	height: 210px;
-	left: 370px;
+	height: 105px;
+	left: 185px;
 	position: absolute;
-	top: 70px;
-	width: 210px;
+	top: 35px;
+	width: 105px;
 	z-index: 88;
 
 	-webkit-animation: spin 15s linear infinite;
@@ -1229,11 +1221,11 @@ display: inline-block;
 	border-radius: 10px 10px 10px 10px;
 	content: "";
 	display: block;
-	height: 20px;
-	left: 98px;
+	height: 10px;
+	left: 49px;
 	position: absolute;
-	top: 95px;
-	width: 20px;
+	top: 47px;
+	width: 10px;
 	z-index: 101;
 }
 
@@ -1241,10 +1233,10 @@ display: inline-block;
 	z-index: 99;
 	position: absolute;
 	display: block;
-	top: 95px;
+	top: 47px;
 	left: 0px;
-	width: 100px;
-	height: 20px;
+	width: 50px;
+	height: 10px;
 	border-radius: 500px 500px 500px 500px/ 100px 100px 100px 100px;
 	background-color: #ED0C6E;
 
@@ -1261,8 +1253,8 @@ display: inline-block;
 	-o-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
-	left: 17px;
-	top: 53px;
+	left: 8px;
+	top: 26px;
 }
 
 .wing_e3 {
@@ -1271,8 +1263,8 @@ display: inline-block;
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	transform: rotate(90deg);
-	left: 59px;
-	top: 37px;
+	left: 30px;
+	top: 18px;
 }
 
 .wing_e4 {
@@ -1281,8 +1273,8 @@ display: inline-block;
 	-o-transform: rotate(135deg);
 	-ms-transform: rotate(135deg);
 	transform: rotate(135deg);
-	left: 100px;
-	top: 56px;
+	left: 50px;
+	top: 25px;
 }
 
 .wing_e5 {
@@ -1291,8 +1283,8 @@ display: inline-block;
 	-o-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
-	left: 114px;
-	top: 98px;
+	left: 57px;
+	top: 50px;
 }
 
 .wing_e6 {
@@ -1301,8 +1293,8 @@ display: inline-block;
 	-o-transform: rotate(225deg);
 	-ms-transform: rotate(225deg);
 	transform: rotate(225deg);
-	left: 98px;
-	top: 139px;
+	left: 50px;
+	top: 70px;
 }
 
 .wing_e7 {
@@ -1311,8 +1303,8 @@ display: inline-block;
 	-o-transform: rotate(270deg);
 	-ms-transform: rotate(270deg);
 	transform: rotate(270deg);
-	left: 57px;
-	top: 154px;
+	left: 28px;
+	top: 77px;
 }
 
 .wing_e8 {
@@ -1321,8 +1313,8 @@ display: inline-block;
 	-o-transform: rotate(315deg);
 	-ms-transform: rotate(315deg);
 	transform: rotate(315deg);
-	left: 16px;
-	top: 136px;
+	left: 8px;
+	top: 68px;
 }
 
 
