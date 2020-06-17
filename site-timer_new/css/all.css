@@ -46,6 +46,10 @@ header h1{
 color: white;
 }
 
+.otpusk .box.hhours{
+	display: block;
+}
+
 #CDT {
     font-size: 45px;
     font-weight: bold;
