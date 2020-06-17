@@ -4,6 +4,10 @@
 	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
+body {
+overflow:hidden;
+}
+
 .snowflake img {
 display: block;
 	
@@ -22,7 +26,6 @@ body {
 	background-position: 70%;*/
 }
 .wrapper{
-overflow: hidden;
 	padding: 25px 5px;
 	
 }
