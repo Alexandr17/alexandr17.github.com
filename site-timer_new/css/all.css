@@ -38,6 +38,13 @@ header h1{
 	text-shadow: 2px 2px 2px #000;
 }
 
+.otpusk .box {
+	background: ##90799c;
+}
+
+.otpusk .box .number {
+color: white;
+}
 
 #CDT {
     font-size: 45px;
