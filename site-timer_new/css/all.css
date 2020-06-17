@@ -47,7 +47,7 @@ color: white;
 }
 
 .otpusk .box.hhours{
-	display: block;
+	display: flex;
 }
 
 #CDT {
