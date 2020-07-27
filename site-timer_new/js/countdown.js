@@ -35,6 +35,7 @@ function CDT(){
  // You can add time's up message here
  var timer = new CountdownTimer('CDT',tl,'<span class="number-wrapper"><div class="line"></div><span class="number end">Ураааа !</span></span>');
  timer.countDown();
+
 }
 
 window.onload=function(){
