@@ -1527,6 +1527,118 @@ blockquote .source {
 	box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, .75);
 }
 
+.message-box {
+	padding: 20px 0;
+	background: #906382;
+	color: wheat;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+}
+
+.message-box h1 {
+	text-align: center;
+	font-size: 35px;
+}
+
+.counter-holder {
+	background-color: #140a16;
+	padding: 44px 0;
+	margin: 50px 0;
+}
+
+.counter {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.border-decor {
+	position: relative;
+}
+
+.border-decor.border-decor-dark:before {
+	background-image: url(../images/border-top-dark.svg);
+}
+
+.border-decor.border-decor-dark:after {
+	background-image: url(../images/border-bottom-dark.svg);
+}
+
+.border-decor:after,
+.border-decor:before {
+	background-image: url(../images/border-top-yellow.svg);
+	background-size: 1440px 29px;
+	background-position: 50% 50%;
+	content: "";
+	height: 29px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 100%;
+}
+
+.border-decor:after {
+	background-image: url(../images/border-bottom-yellow.svg);
+	bottom: auto;
+	top: 100%;
+}
+
+.counter-item {
+	border-right: 1px solid rgba(255, 255, 255, .8);
+	padding: 10px 15px;
+	position: relative;
+	text-align: center;
+}
+
+.counter-item:last-child {
+	border-right: none;
+}
+
+.counter-item:last-child:after,
+.counter-item:last-child:before {
+	display: none;
+}
+
+.counter-item:after,
+.counter-item:before {
+	width: 10px;
+	height: 10px;
+	border: 1px solid rgba(255, 255, 255, .5);
+	border-radius: 50%;
+	content: "";
+	position: absolute;
+	right: -5px;
+}
+
+.counter-item:before {
+	top: -10px;
+}
+
+.counter-item:after {
+	bottom: -10px;
+}
+
+.counter-item .value {
+	color: #ffb219;
+	font-weight: 700;
+	font-size: 40px;
+	display: block;
+	line-height: 1.125;
+}
+
+.counter-item span {
+	font-size: 10px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, .5);
+	text-transform: uppercase;
+}
+
 #footer {
 	background: #1a1a1a;
 	padding: 18px 0 20px;
@@ -1653,6 +1765,18 @@ blockquote .source {
 		padding-top: 75px;
 	}
 
+	.counter-holder {
+		padding: 25px 0;
+	}
+
+	.counter-item .value {
+		font-size: 60px;
+	}
+
+	.counter-item span {
+		font-size: 14px;
+	}
+
 	#footer .logo {
 		width: 120px;
 		margin: 0;
@@ -1763,5 +1887,13 @@ blockquote .source {
 		padding-right: 20px;
 		font-size: 14px;
 	}
+
+	.counter-item {
+		padding: 15px 50px;
+	}
+
+	.counter-item .value {
+		font-size: 80px;
+	}
 }
-
+
